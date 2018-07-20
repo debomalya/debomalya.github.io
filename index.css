@@ -1,0 +1,78 @@
+body,html{
+	margin: 0;
+	padding:0;
+	width:100%;
+	height: 100%;
+}
+#backimage{
+	background: url("landing.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;/*this hides the extra white space below bg image*/
+}
+
+#button{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.btn-secondary{
+	opacity: .3;
+	background-color: #1C4357;
+}
+.btn-secondary:hover{
+	color: #33AAFF;
+	opacity: 1;
+	font-weight: bold;
+	font-family: verdana;
+	background-color: #001E33;
+}
+h1{
+	color: #563D7C;
+	text-decoration: bold;
+	font-family: 'Knewave', cursive;
+	text-align: center;
+}
+.cimage{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img{
+	height: 250px;
+	width:400px;
+	margin:10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+p{
+	margin:2px;
+	text-align: center;
+	color: #33AAFF;
+	font-family: 'Merienda', cursive;
+	text-shadow: 
+}
+.btn-primary{
+	background-color:#684C46;
+}
+.btn-primary:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	background-color:#4caf50;
+}
+
+#buttons{
+	width:100%;
+	display: flex;
+	flex-grow: wrap;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+	align-items: center;
+}
